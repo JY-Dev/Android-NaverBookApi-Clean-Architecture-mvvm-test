@@ -15,6 +15,8 @@ android {
         versionName = AppConfig.versionName
 
         testInstrumentationRunner = AppConfig.androidTestInstrumentation
+        buildConfigField("String","NAVER_Client_Id","\"7IFQXBwcqjeI9e2Es4iw\"")
+        buildConfigField("String","NAVER_Client_Secret","\"4iMfDQQB34\"")
     }
 
     buildTypes {

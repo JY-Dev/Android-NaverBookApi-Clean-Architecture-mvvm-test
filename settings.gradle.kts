@@ -1,2 +1,2 @@
 rootProject.name = "NaverBookApi"
-include ':app'
+include(":app")
